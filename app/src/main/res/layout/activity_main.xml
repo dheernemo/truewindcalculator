@@ -1,0 +1,270 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/lArahSebenarnyaDegree2"
+        android:layout_width="7dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:text="@string/derajat"
+        app:layout_constraintStart_toEndOf="@+id/tArahSebenarnya"
+        app:layout_constraintTop_toBottomOf="@+id/lArahSebenarnya" />
+
+    <TextView
+        android:id="@+id/lKecSebenarnyaKnot2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="16dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="16dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:text="@string/knot"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toEndOf="@+id/tKecepatanSebenarnya"
+        app:layout_constraintTop_toBottomOf="@+id/lKecepatanSebenarnya" />
+
+    <TextView
+        android:id="@+id/lKecTerukurKnot"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="16dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:text="@string/knot"
+        app:layout_constraintBottom_toBottomOf="@+id/tKecepatanTerukur"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toEndOf="@+id/tKecepatanTerukur"
+        app:layout_constraintTop_toBottomOf="@+id/lKecepatanTerukur" />
+
+    <TextView
+        android:id="@+id/lArahKapal"
+        android:layout_width="132dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="16dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        android:text="@string/arah_kapal"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/tArahKapal"
+        android:layout_width="112dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="16dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="8dp"
+        android:ems="10"
+        android:hint="@string/arah_kapal"
+        android:inputType="number"
+        android:singleLine="true"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/lArahKapal" />
+
+    <TextView
+        android:id="@+id/lKecepatanKapal"
+        android:layout_width="147dp"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="16dp"
+        android:text="@string/kecepatan_kapal"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.387"
+        app:layout_constraintStart_toEndOf="@+id/lArahKapal"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/tKecepatanKapal"
+        android:layout_width="126dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="32dp"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="8dp"
+        android:ems="10"
+        android:hint="@string/l_kecepatan_kapal"
+        android:inputType="number"
+        app:layout_constraintStart_toEndOf="@+id/lArahKapalDegree"
+        app:layout_constraintTop_toBottomOf="@+id/lKecepatanKapal" />
+
+    <EditText
+        android:id="@+id/tArahTerukur"
+        android:layout_width="112dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="16dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="8dp"
+        android:ems="10"
+        android:hint="@string/arah_terukur"
+        android:inputType="number"
+        android:singleLine="true"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/lArahTerukur" />
+
+    <TextView
+        android:id="@+id/lArahTerukur"
+        android:layout_width="132dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="16dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="8dp"
+        android:text="@string/arah_terukur"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tArahKapal" />
+
+    <TextView
+        android:id="@+id/lKecepatanTerukur"
+        android:layout_width="147dp"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:text="@string/kecepatan_terukur"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.387"
+        app:layout_constraintStart_toEndOf="@+id/lArahKapal"
+        app:layout_constraintTop_toBottomOf="@+id/tKecepatanKapal" />
+
+    <EditText
+        android:id="@+id/tKecepatanTerukur"
+        android:layout_width="126dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="32dp"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="8dp"
+        android:ems="10"
+        android:hint="@string/l_kecepatan_terukur"
+        android:inputType="number"
+        app:layout_constraintStart_toEndOf="@+id/lArahTerukurDegree"
+        app:layout_constraintTop_toBottomOf="@+id/lKecepatanTerukur" />
+
+    <TextView
+        android:id="@+id/lArahSebenarnya"
+        android:layout_width="132dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="16dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="12dp"
+        android:text="@string/arah_sebenarnya"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/bHitung" />
+
+    <TextView
+        android:id="@+id/tArahSebenarnya"
+        android:layout_width="114dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="16dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="8dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/lArahSebenarnya" />
+
+    <TextView
+        android:id="@+id/lKecepatanSebenarnya"
+        android:layout_width="147dp"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="12dp"
+        android:text="@string/kecepatan_sebenarnya"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.51"
+        app:layout_constraintStart_toEndOf="@+id/lArahKapal"
+        app:layout_constraintTop_toBottomOf="@+id/bHitung" />
+
+    <TextView
+        android:id="@+id/tKecepatanSebenarnya"
+        android:layout_width="117dp"
+        android:layout_height="18dp"
+        android:layout_marginLeft="36dp"
+        android:layout_marginStart="36dp"
+        android:layout_marginTop="8dp"
+        app:layout_constraintStart_toEndOf="@+id/lArahSebenarnyaDegree2"
+        app:layout_constraintTop_toBottomOf="@+id/lKecepatanSebenarnya" />
+
+    <Button
+        android:id="@+id/bHitung"
+        android:layout_width="198dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="16dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        android:text="@string/hitung"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tArahTerukur" />
+
+    <Button
+        android:id="@+id/bReset"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="16dp"
+        android:text="@string/reset"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/bHitung"
+        app:layout_constraintTop_toBottomOf="@+id/tKecepatanTerukur" />
+
+    <TextView
+        android:id="@+id/lArahKapalDegree"
+        android:layout_width="7dp"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:text="@string/derajat"
+        app:layout_constraintBottom_toBottomOf="@+id/tArahKapal"
+        app:layout_constraintStart_toEndOf="@+id/tArahKapal"
+        app:layout_constraintTop_toBottomOf="@+id/lArahKapal" />
+
+    <TextView
+        android:id="@+id/lArahTerukurDegree"
+        android:layout_width="7dp"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:text="@string/derajat"
+        app:layout_constraintBottom_toBottomOf="@+id/tArahTerukur"
+        app:layout_constraintStart_toEndOf="@+id/tArahTerukur"
+        app:layout_constraintTop_toBottomOf="@+id/lArahTerukur" />
+
+    <TextView
+        android:id="@+id/lKecKapalKnot"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:text="@string/knot"
+        app:layout_constraintBottom_toBottomOf="@+id/tKecepatanKapal"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/tKecepatanKapal"
+        app:layout_constraintTop_toBottomOf="@+id/lKecepatanKapal" />
+</android.support.constraint.ConstraintLayout>

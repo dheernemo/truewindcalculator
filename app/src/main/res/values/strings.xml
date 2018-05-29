@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">True Wind Calculator</string>
+    <string name="knot">Knot</string>
+    <string name="derajat">°</string>
+    <string name="arah_kapal">Arah Kapal</string>
+    <string name="kecepatan_kapal">Kecepatan Kapal</string>
+    <string name="l_kecepatan_kapal">Kec. Kapal</string>
+    <string name="arah_terukur">Arah Terukur</string>
+    <string name="kecepatan_terukur">Kecepatan Terukur</string>
+    <string name="l_kecepatan_terukur">Kec. Terukur</string>
+    <string name="arah_sebenarnya">Arah Sebenarnya</string>
+    <string name="kecepatan_sebenarnya">Kecepatan Sebenarnya</string>
+    <string name="err_range_arah">Nilai arah antara 0 - 360</string>
+    <string name="hitung">Hitung</string>
+    <string name="reset">Reset</string>
+</resources>
